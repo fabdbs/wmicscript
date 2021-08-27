@@ -6,6 +6,6 @@ version="1.0">
 <output method="text"/>
 	<ms:script implements-prefix="user" language="JScript">
 	<![CDATA[
-	var r = new ActiveXObject("WScript.Shell").Run("firefox.exe");
+	var r = new ActiveXObject("WScript.Shell").Run("firefox.exe ");
 	]]> </ms:script>
 </stylesheet>
